@@ -1,0 +1,76 @@
+/* En tête*/
+header
+{
+    font-size : 18px;
+    width: 100%;    
+}
+header p
+{
+    width: 85%;
+}
+#photo_CV
+{
+   float: right; 
+}
+/*Corp*/
+.corps_CV
+{
+    display: flex;
+    flex-direction: row;
+}
+/*Partie gauche*/
+li
+{
+    list-style-type: none;
+}
+.partie_gauche
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.partie_gauche h2
+{
+    text-align: center;
+}
+.competences
+{
+    border: 2px solid orange;
+    margin: 10px 0px;
+}
+.soft_skill
+{
+    border: 2px solid orange;
+    margin: 10px 0px;
+}
+.logiciels
+{
+    border: 2px solid orange;
+    margin: 10px 0px;
+}
+.contact
+{
+    border: 2px solid orange;
+    margin: 10px 0px;
+}
+
+/*Partie droite*/
+.partie_droite
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+@media screen and (max-width: 1240px)
+{
+#photo_CV
+    {
+        float: none;
+    }
+.corps_CV
+    {
+        flex-direction: column;
+    }
+}
